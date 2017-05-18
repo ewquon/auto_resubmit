@@ -100,7 +100,7 @@ if [ -f "currentRun" ]; then
 
         curdir=$PWD
         cd ..
-        mv $curdir $JOBLOGDIR/archive/
+        mv -v $curdir $JOBLOGDIR/archive/
 
         exit 0
     fi
